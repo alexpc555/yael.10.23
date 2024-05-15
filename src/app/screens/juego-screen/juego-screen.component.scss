@@ -1,0 +1,183 @@
+.wrapper{
+  width: 100%;
+  height: 100vh;
+  background-color: #FFFFFF;
+}
+
+.body-juego{
+  width: 100%;
+  height: 90vh;
+  background-color: #FFFFFF;
+  overflow-y: scroll!important;
+}
+
+.eslogan{
+  border-top: 1px solid #7A7A7A1F!important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  // max-width: 40%;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.interior-normal{
+  max-width: 100%;
+}
+
+.interior-mobile{
+  width: 100%;
+}
+
+.line-color{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 5%;
+}
+
+.vertical-line{
+  width: 5px; /* Line width */
+  background-color: #CD0000; /* Line color */
+  height: 40px!important; /* Override in-line if you want specific height. */
+  float: left;
+}
+
+.title-link{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  //Fuente
+  text-align: left;
+  font-family: Avenir-Bold;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.text{
+  padding-top: 1rem;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: left;
+  font-family: Avenir;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.section-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  gap: 2.5rem;
+}
+
+.lentes-num{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.lentes-1{
+  width: 300px;
+  height: 132px;
+}
+
+.texto-lentes{
+  text-align: center;
+  font-family: Avenir-Bold;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.botones{
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+  .boton-1{
+    width: 156px;
+    height: 40px;
+    padding-left: 1rem;
+    background-color: #FFFFFF;
+
+    .text-btn-1{
+      text-align: center;
+      font-family: Avenir;
+      font-size: 16px;
+      letter-spacing: 0.8px;
+      color: #CD0000;
+      opacity: 1;
+  }
+  }
+  .boton-2{
+    width: 150px;
+    height: 40px;
+    //padding-left: 2rem;
+
+    .mdc-button {
+      background: #CD0000 0% 0% no-repeat padding-box;
+      opacity: 1;
+      width: 188px;
+      height: 40px;
+      border-radius: 0;
+      //Fuente
+      .text-btn{
+          text-align: center;
+          font-family: Avenir;
+          font-size: 16px;
+          letter-spacing: 0.8px;
+          color: #FFFFFF;
+          opacity: 1;
+      }
+    }
+
+    .mat-mdc-unelevated-button.mat-warn {
+      --mdc-filled-button-container-color: #CD0000;
+      --mdc-filled-button-label-text-color: #fff;
+    }
+
+  }
+}
+
+.rectangulo-81{
+  width: 100%;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #E50020;
+}
+
+.txt-rectangulo{
+  text-align: center;
+  font-family: Avenir;
+  font-size: 7px;
+  letter-spacing: 0.8px;
+  color: #FFFFFF;
+  opacity: 1;
+}

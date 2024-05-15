@@ -1,0 +1,34 @@
+<section class="termninos-condiciones">
+  <div class="wrapper">
+    <mat-drawer-container>
+      <mat-drawer #drawer mode='over' position="start">
+        <app-left-sidebar (cerrar)="drawer.toggle()"></app-left-sidebar>
+    </mat-drawer>
+    <app-header-app (drawer)="drawer.toggle()"></app-header-app>
+    <div class="body-terminos">
+      <div class="eslogan {{isMobile()}}">
+        <div class="line-color">
+          <div class="vertical-line" style="height: 111px;"></div>
+          </div>
+          <div class="title-link">
+            <span>TÉRMINOS Y CONDICIONES</span>
+            </div>
+          </div>
+          <div class = "termino-text">
+            <div class="text">
+              <p> At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est. </p>
+              <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+              <p> At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut. </p>
+              <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+              <p> Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+
+
+            </div>
+          </div>
+          <div class="footer">
+            <app-footer-app></app-footer-app>
+        </div>
+    </div>
+    </mat-drawer-container>
+  </div>
+</section>
